@@ -1,23 +1,42 @@
 body, html {
   background-color: #aaaaaa;
   height: 100%;
+  text-align: center;
 }
 
-table {
+#gameBoard {
+  margin: 0 auto;
   width: 30rem;
   height: 30rem;
 }
 
-tr, td {
+#gameBoard tr, #gameBoard td {
   border: 1px solid black;
-  width: 5px;
-  height: 5px;
+  width: 4rem;
+  height: 4rem;
 }
 
 .top-row {
   border: 1px solid black;
 }
 
-.selected {
+.player1, .player2 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.player1 {
+  background-color: green;
+}
+
+.player2 {
+  background-color: red;
+}
+
+#player1score {
+  background-color: green;
+}
+
+#player2score {
   background-color: red;
 }

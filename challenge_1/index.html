@@ -7,23 +7,37 @@
 </head>
 <body>
   <h1>Tic Tac Toe</h1>
-  <table>
+  <h3></h3>
+  <table id="gameBoard">
     <tr class="top-row">
-      <td onclick="red(this)"></td>
-      <td onclick="red(this)"></td>
-      <td onclick="red(this)"></td>
+      <td onclick="toggleX(this)"></td>
+      <td onclick="toggleX(this)"></td>
+      <td onclick="toggleX(this)"></td>
     </tr>
     <tr class="mid-row">
-      <td onclick="red(this)"></td>
-      <td onclick="red(this)"></td>
-      <td onclick="red(this)"></td>
+      <td onclick="toggleX(this)"></td>
+      <td onclick="toggleX(this)"></td>
+      <td onclick="toggleX(this)"></td>
     </tr>
     <tr class="bot-row">
-      <td onclick="red(this)"></td>
-      <td onclick="red(this)"></td>
-      <td onclick="red(this)"></td>
+      <td onclick="toggleX(this)"></td>
+      <td onclick="toggleX(this)"></td>
+      <td onclick="toggleX(this)"></td>
     </tr>
   </table>
+
+  <div class="score">
+    <table>
+      <tr id="player1score">
+        <td>Player 1:</td>
+        <td>0</td>
+      </tr>
+      <tr id="player2score">
+          <td>Player 2:</td>
+          <td>0</td>
+        </tr>
+    </table>
+  </div>
 
   <script type="text/javascript" src="app.js"></script>
 </body>
