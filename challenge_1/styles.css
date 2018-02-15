@@ -33,6 +33,11 @@ body, html {
   background-color: red;
 }
 
+#score {
+  width: 5rem;
+  height: 5rem;
+}
+
 #player1score {
   background-color: green;
 }
